@@ -1,0 +1,50 @@
+* {
+  text-align: center;
+  background-color: rgb(15, 191, 255);
+  align-items: center;
+
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.input {
+  width: 30%;
+  background-color: aliceblue;
+}
+
+h1 {
+  color: rgb(255, 0, 166);
+}
+
+.main {
+  align-items: center;
+}
+
+.li {
+  color: brown;
+  background-color: aliceblue;
+  width: 30%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.li.completed {
+  color: green;
+  text-decoration: line-through;
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#clearAllBtn {
+  background-color: aliceblue;
+}
+
+#rmBtn {
+  background-color: purple;
+  margin-left: 1rem;
+  color: aliceblue;
+}
